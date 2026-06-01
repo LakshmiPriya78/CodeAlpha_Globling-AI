@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Globling AI Translator</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <div class="card">
+
+            <h1>🌍 Globling AI Translator</h1>
+
+            <form method="POST">
+
+                <textarea
+                    name="text"
+                    id="input-text"
+                    placeholder="Type or speak something..."
+                    required></textarea>
+
+                <div class="controls">
+
+                    <!-- SOURCE LANGUAGE -->
+
+                    <select name="source_language">
+
+                        <option value="auto">
+                            Auto Detect
+                        </option>
+
+                        {% for name, code in languages.items() %}
+
+                        <option value="{{ code }}">
+                            {{ name.title() }}
+                        </option>
+
+                        {% endfor %}
+
+                    </select>
+
+                    <button type="button"
+                            id="swap-btn">
+                        🔄
+                    </button>
+
+                    <!-- TARGET LANGUAGE -->
+
+                    <select name="target_language">
+
+                        {% for name, code in languages.items() %}
+
+                        <option value="{{ code }}">
+                            {{ name.title() }}
+                        </option>
+
+                        {% endfor %}
+
+                    </select>
+
+                </div>
+
+                <div class="action-buttons">
+
+                    <button type="button"
+                            id="mic-btn">
+                        🎤 Voice Input
+                    </button>
+
+                    <button type="submit"
+                            id="translate-btn">
+                        Translate
+                    </button>
+
+                </div>
+
+            </form>
+
+            <div class="result-box">
+
+                <div class="result-top">
+
+                    <h2>Translated Text</h2>
+
+                    <div class="mini-buttons">
+
+                        <button type="button"
+                                id="copy-btn">
+                            📋 Copy
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <p id="translated-text">
+                    {{ translated_text }}
+                </p>
+
+                {% if transliterated_text %}
+
+                <div style="margin-top:15px;">
+
+                    <h3>Hindi Script Version</h3>
+
+                    <p>
+                        {{ transliterated_text }}
+                    </p>
+
+                </div>
+
+                {% endif %}
+
+                {% if detected_language %}
+
+                <div style="margin-top:15px;">
+
+                    <strong>
+                        Detected:
+                    </strong>
+
+                    {{ detected_language }}
+
+                </div>
+
+                {% endif %}
+
+                {% if audio_file %}
+
+                <div class="audio-section">
+
+                    <h3>
+                        🎧 Listen to Translation
+                    </h3>
+
+                    <audio controls
+                           class="audio-player">
+
+                        <source
+                            src="{{ url_for('static', filename=audio_file) }}"
+                            type="audio/mpeg">
+
+                        Your browser does not support audio playback.
+
+                    </audio>
+
+                </div>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
