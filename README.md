@@ -24,18 +24,6 @@ Built to make global communication seamless, fast, and accessible for everyone.
 - 🎧 Adjustable playback experience  
 - 📱 Responsive and modern UI  
 
-
-## 📸 Screenshots
-
-### 🏠 Home Page
-<img src="https://raw.githubusercontent.com/LakshmiPriya78/CodeAlpha_Globling-AI/main/screenshots/home.jpeg" width="700"/>
-
-### 🌍 Translation Example
-<img src="https://raw.githubusercontent.com/LakshmiPriya78/CodeAlpha_Globling-AI/main/screenshots/translation.jpeg" width="700"/>
-
-### 🔊 Audio Playback
-<img src="https://raw.githubusercontent.com/LakshmiPriya78/CodeAlpha_Globling-AI/main/screenshots/audio.jpeg" width="700"/>
-
 ---
 
 ## 🛠️ Tech Stack
