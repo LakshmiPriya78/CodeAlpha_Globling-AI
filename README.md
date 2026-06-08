@@ -27,13 +27,13 @@ Built to make global communication seamless, fast, and accessible for everyone.
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home.jpeg)
+![Home Page](./screenshots/home.jpeg)
 
 ### 🌍 Translation Example
-![Translation](screenshots/translation.jpeg)
+![Translation](./screenshots/translation.jpeg)
 
 ### 🔊 Audio Playback
-![Audio Playback](screenshots/audio.jpeg)
+![Audio Playback](./screenshots/audio.jpeg)
 
 ---
 
