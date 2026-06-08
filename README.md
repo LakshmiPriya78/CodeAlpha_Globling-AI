@@ -24,16 +24,17 @@ Built to make global communication seamless, fast, and accessible for everyone.
 - 🎧 Adjustable playback experience  
 - 📱 Responsive and modern UI  
 
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-<img src="screenshots/home.jpeg" width="700"/>
+<img src="https://github.com/LakshmiPriya78/CodeAlpha_Globling-AI/blob/main/screenshots/home.jpeg?raw=true" width="700"/>
 
 ### 🌍 Translation Example
-<img src="screenshots/translation.jpeg" width="700"/>
+<img src="https://github.com/LakshmiPriya78/CodeAlpha_Globling-AI/blob/main/screenshots/translation.jpeg?raw=true" width="700"/>
 
 ### 🔊 Audio Playback
-<img src="screenshots/audio.jpeg" width="700"/>
+<img src="https://github.com/LakshmiPriya78/CodeAlpha_Globling-AI/blob/main/screenshots/audio.jpeg?raw=true" width="700"/>
 
 ---
 
