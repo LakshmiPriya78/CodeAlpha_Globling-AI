@@ -24,8 +24,6 @@ Built to make global communication seamless, fast, and accessible for everyone.
 - 🎧 Adjustable playback experience  
 - 📱 Responsive and modern UI  
 
----
-
 ## 📸 Screenshots
 
 ### 🏠 Home Page

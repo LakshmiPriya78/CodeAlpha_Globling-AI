@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request
 from deep_translator import GoogleTranslator
+import time
+import uuid
 from gtts import gTTS
 import os
 languages = GoogleTranslator().get_supported_languages(as_dict=True)
@@ -80,19 +82,14 @@ def home():
 
             try:
 
-                tts = gTTS(
-                    text=translated_text,
-                    lang=tts_lang
-                )
+                tts = gTTS(text=translated_text, lang=tts_lang)
 
-                audio_path = os.path.join(
-                    "static",
-                    "translated_audio.mp3"
-                )
+                filename = f"audio_{uuid.uuid4().hex}.mp3"
+                audio_path = os.path.join("static", filename)
 
                 tts.save(audio_path)
 
-                audio_file = "translated_audio.mp3"
+                audio_file = filename
 
             except Exception as e:
 
