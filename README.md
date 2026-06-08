@@ -28,13 +28,13 @@ Built to make global communication seamless, fast, and accessible for everyone.
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-<img src="https://github.com/LakshmiPriya78/CodeAlpha_Globling-AI/blob/main/screenshots/home.jpeg?raw=true" width="700"/>
+<img src="https://raw.githubusercontent.com/LakshmiPriya78/CodeAlpha_Globling-AI/main/screenshots/home.jpeg" width="700"/>
 
 ### 🌍 Translation Example
-<img src="https://github.com/LakshmiPriya78/CodeAlpha_Globling-AI/blob/main/screenshots/translation.jpeg?raw=true" width="700"/>
+<img src="https://raw.githubusercontent.com/LakshmiPriya78/CodeAlpha_Globling-AI/main/screenshots/translation.jpeg" width="700"/>
 
 ### 🔊 Audio Playback
-<img src="https://github.com/LakshmiPriya78/CodeAlpha_Globling-AI/blob/main/screenshots/audio.jpeg?raw=true" width="700"/>
+<img src="https://raw.githubusercontent.com/LakshmiPriya78/CodeAlpha_Globling-AI/main/screenshots/audio.jpeg" width="700"/>
 
 ---
 
